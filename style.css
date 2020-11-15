@@ -1,0 +1,129 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+main-message,
+.image-one {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 85%;
+  background-attachment:fixed;
+}
+
+.main-message {
+  /*first pic on home screen*/
+  background-image: url("https://cdn.glitch.com/1a97ff84-ccdb-419d-8f7b-ca3d39289309%2Fangryimg.png?v=1605393307517");
+}
+.image-one {
+  /*second pic on home screen*/
+  background-image: url("https://cdn.glitch.com/1a97ff84-ccdb-419d-8f7b-ca3d39289309%2Fangryimg.png?v=1605393307517");
+}
+
+body, html {
+  height:75%;
+  font-size:20px;
+  line-height:1.5em;
+  margin: 0em;
+  background-image: url("https://cdn.glitch.com/1a97ff84-ccdb-419d-8f7b-ca3d39289309%2Fangryimg.png?v=1605393307517");
+  box-sizing: border-box;
+}
+
+nav {
+  list-style-type: none;
+  padding: 2px;
+  background-color: #5B5ECB;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+}
+
+li {
+  display: inline;
+  border-right: 2px solid #5B5ECB;
+  font-size:20px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1em;
+}
+
+li a:hover {
+  background-color: #2e267e;
+  border-radius:5px;
+}
+
+.logo {
+  margin-left:590px;
+}
+
+#writehere {
+  font-family: 'Josefin Slab', serif;
+  font-size: 70px;
+  color : white;
+  text-align: center;
+  margin-top:10px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #5B5ECB;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+  font-size:30px;
+  height: 160px;
+}
+
+.socialButtons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+
+#vsco {
+  height: 50px;
+  width: 50px;
+}
+
+#instagram {
+  height: 50px;
+  width: 50px;
+}
+
+#email {
+  height: 50px;
+  width: 50px;
+}
+
+hr {
+  color:white;
+  margin-top:30px;
+}
+
+.link {
+  font-size:2px;
+}
+
+.welcome {
+  text-align:center;
+}
+
+.logo {
+  height:380px;
+  margin-left:650px;
+}
